@@ -1,0 +1,18 @@
+---
+filename: C:\Users\omera\Desktop\image captioning\dataset\Flickr8k.token.txt
+images_path: C:\Users\omera\Desktop\image captioning\dataset\Flicker8k_Dataset
+image_size: [299, 299]
+input_size: [1, 299, 299, 3]
+embed_dim: 512
+dense_dim_encoder: 512
+num_heads_encoder: 4
+dense_dim_decoder: 1024
+num_heads_decoder: 6
+vocab_size: 10000
+sequence_length: 25
+epochs: 1
+batch_size: 64
+train_size: 0.8
+model_save_path: C:\Users\omera\Desktop\image captioning\tensorflow_image_captioning\models\my_model.h5
+vectorizer_save_path: C:\Users\omera\Desktop\image captioning\tensorflow_image_captioning\models\my_vectorizer.pkl
+sample_image_path: C:\Users\omera\Desktop\image captioning\dataset\Flicker8k_Dataset\17273391_55cfc7d3d4.jpg
